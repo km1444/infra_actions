@@ -71,4 +71,4 @@ jobs:
           sudo docker pull km144/sprint16.1
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 km144/sprint16.1
+          sudo docker run --rm -d -p 6000:6000 km144/sprint16.1
